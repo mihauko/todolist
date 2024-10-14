@@ -40,7 +40,7 @@ export const TaskList: React.FC<TaskListProps> = ({
           </span>
           <button
             onClick={() => onRemoveTask(task.id)}
-            className="text-gray-400 opacity-0 transition-opacity hover:text-red-500 group-hover:opacity-100"
+            className="text-gray-400 opacity-0 transition-opacity hover:text-red-500 focus:opacity-100 group-hover:opacity-100"
           >
             <Trash2 size={20} />
           </button>
