@@ -17,10 +17,10 @@ export const FilterButtons: React.FC<FilterButtonsProps> = ({
           key={filterValue}
           type="button"
           onClick={() => onFilterChange(filterValue)}
-          className={`flex-1 rounded-lg py-3 text-lg font-medium transition-colors ${
+          className={`flex-1 rounded-lg border border-[#DEE2E6] py-1.5 font-medium transition-colors ${
             currentFilter === filterValue
               ? 'bg-[#17A2B8] text-white hover:bg-[#148a9c]'
-              : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+              : 'bg-white text-gray-600 hover:bg-gray-100'
           }`}
         >
           {filterValue === Filter.All ? 'Show all' : `Hide completed`}

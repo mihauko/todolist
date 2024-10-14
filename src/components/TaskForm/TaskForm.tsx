@@ -51,7 +51,7 @@ export const TaskForm: React.FC = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="w-[285px]">
       <NewTaskInput setNewTask={setNewTask} newTask={newTask} />
       <FilterButtons
         currentFilter={filter}

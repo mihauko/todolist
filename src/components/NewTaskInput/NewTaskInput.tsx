@@ -17,7 +17,7 @@ export const NewTaskInput: React.FC<NewTaskInputProps> = ({
         value={newTask}
         onChange={(e) => setNewTask(e.target.value)}
         placeholder="New task input"
-        className="grow rounded-l-lg border border-gray-300 bg-white px-6 py-4 text-xl text-gray-600 transition-colors focus:border-[#17A2B8] focus:outline-none"
+        className="grow rounded-l-lg border border-r-0 border-gray-300 bg-white p-6 py-4 text-[#54595E] transition-colors focus:border focus:border-[#17A2B8] focus:outline-none"
       />
       <button
         type="submit"
