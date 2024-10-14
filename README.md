@@ -1,3 +1,18 @@
+I run this project with using below boilerplate.
+
+Decisions:
+* add colors on focus and hover
+* add remove button icon visible on hover or focus
+* add persist tasks between page reloads
+
+I haven't added Intern font as I noticed it after deployed build. I assumed I will do everything in max 3h, so I can't prolong this task to finish it now.
+
+https://todolist-git-main-mihaukos-projects.vercel.app/
+
+Tests:
+I would add basic test to check if there is something in the document and focus on teh funcionalities such as add new, remove and update tasks. So tests localStorage or stores in the future. To improve everythink we can use for example Cypress for end to end tests.
+
+
 ![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
 
 # React Tailwindcss Boilerplate build with Vite
